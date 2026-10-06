@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Preethi | Full Stack Developer</title>
+<meta name="description" content="Preethi, Full Stack Developer based in Chennai, India. React, Node.js, Java, Spring Boot, MySQL and AWS.">
+<style>
+  :root{
+    --bg:#f3f6f4; --ink:#14201b; --muted:#53635b; --line:#c9d6cf;
+    --accent:#0f6b57; --panel:#ffffff;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0f1a16; --ink:#e8f0ec; --muted:#9db0a7; --line:#27382f; --accent:#4fd1b0; --panel:#15241e; }
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:Georgia,"Times New Roman",serif;line-height:1.65}
+  a{color:var(--accent)}
+  a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+  .wrap{max-width:760px;margin:0 auto;padding:0 22px}
+  nav{padding:20px 0;border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;gap:22px;flex-wrap:wrap;font-family:system-ui,sans-serif;font-size:.95rem}
+  nav a{text-decoration:none;color:var(--muted)}
+  nav a:hover{color:var(--accent)}
+  header{padding:72px 0 48px}
+  h1{font-size:clamp(2.6rem,9vw,4.4rem);line-height:1.05;margin:0 0 18px;letter-spacing:-.02em}
+  .lead{font-size:1.25rem;max-width:34em;color:var(--muted);margin:0 0 28px}
+  .btns{display:flex;gap:12px;flex-wrap:wrap;font-family:system-ui,sans-serif}
+  .btn{padding:11px 20px;border-radius:6px;text-decoration:none;font-weight:600;border:1.5px solid var(--accent)}
+  .btn.main{background:var(--accent);color:var(--bg)}
+  .btn.alt{color:var(--accent)}
+  section{padding:44px 0;border-top:1px solid var(--line)}
+  h2{font-size:1.7rem;margin:0 0 18px}
+  .skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}
+  .skills div{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:16px 18px}
+  .skills h3{margin:0 0 6px;font-size:1.05rem}
+  .skills p{margin:0;color:var(--muted);font-family:system-ui,sans-serif;font-size:.95rem}
+  ul.plain{padding-left:20px;margin:0}
+  ul.plain li{margin-bottom:8px}
+  footer{padding:30px 0 50px;border-top:1px solid var(--line);color:var(--muted);font-family:system-ui,sans-serif;font-size:.9rem}
+  @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="wrap">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <h1>Preethi</h1>
+    <p class="lead">Full Stack Developer in Chennai, India. I build web applications with React, Node.js, Java and Spring Boot, and deploy them on AWS.</p>
+    <div class="btns">
+      <a class="btn main" href="mailto:preethivishali1507@gmail.com">Email me</a>
+      <a class="btn alt" href="https://www.linkedin.com/in/preethivishali15" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn alt" href="https://github.com/preethivishali15" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="about">
+    <div class="wrap">
+      <h2>About</h2>
+      <p>I work across the whole stack, from interface design to databases and cloud deployment. My most recent role was at Atos, where I worked on the VE.AI product. I am also pursuing an MCA degree.</p>
+      <p>My design background helps me build interfaces that are clear to use as well as working correctly.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div><h3>Front end</h3><p>React.js, HTML, CSS, JavaScript</p></div>
+        <div><h3>Back end</h3><p>Node.js, Java, Spring Boot, Hibernate</p></div>
+        <div><h3>Database</h3><p>MySQL</p></div>
+        <div><h3>Cloud</h3><p>AWS</p></div>
+        <div><h3>Design</h3><p>UI/UX design</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <div class="wrap">
+      <h2>Certifications</h2>
+      <ul class="plain">
+        <li>AWS Certified Developer Associate</li>
+        <li>Meta Front-End Developer Professional Certificate</li>
+        <li>Interaction Design Foundation (IxDF) membership</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:preethivishali1507@gmail.com">preethivishali1507@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/preethivishali15" target="_blank" rel="noopener">linkedin.com/in/preethivishali15</a></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">Preethi, Chennai, India</div>
+</footer>
+</body>
+</html>
